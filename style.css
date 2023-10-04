@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap');
+
+body{
+    background: radial-gradient(102.64% 102.64% at 50% -24.37%, rgba(13, 66, 48, 0.6) 0%, #304A7D 45.73%, rgba(14, 64, 84, 0.78) 100%);
+    color: #FFFFFF;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    text-shadow: 1px 1px black;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    padding: 40px;
+    font-size: 20px;
+}
+
+nav li a{
+    color: white;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+}
+
+li img{
+    width: 80px;
+}
+
+ /* Getting rid of dotted line styling for abbreviations in navs */
+nav abbr{
+    text-decoration: none;
+}
+.intro-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.intro-content{
+    display: flex;
+    flex-direction: column;
+    background: #041226;
+    width: 600px;
+    border-radius: 20px; 
+    padding: 2em;
+    margin-top: 2em;
+    justify-content: center;
+}
+
+.intro-content p{
+    font-weight: 600;
+    margin: 0;
+    padding: 10px 0;
+}
+
+h1{
+    color: #EC7872;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: .1em;
+    margin-bottom: .3em;
+}
+
+/* Styling column of sections here */
+main{
+    display: flex;
+    flex-direction:  column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* Styling main section rows */
+main section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Contains about me, education, xp and skills  */
+.body-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 150px;
+}
+#about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.article-content{
+    width: 70%;
+}
+
+article img{
+    object-fit: cover;
+}
+
+article figure{
+    width: 30%;
+}
+
+/* this applies to all sections except header and footer */
+.bright-txt-container{ 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(48, 108, 243, 0.4);
+    padding: 1em 2em;
+    margin: 1em 1em;
+    width: 70%;
+    border: 5px solid #306CF3;
+    border-radius: 60px;
+}
+
+dt{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+dt.bottom-dt{
+    margin-top: 20px;
+}
+
+dd{
+    margin-top: 10px;
+    margin-bottom: 15px;    
+}
+.company-ref{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #F6BFB4;
+}
+.xp-container{
+    margin: 0 14%;
+}
+#xp{
+    align-items: center;
+}
+
+#xp .main-content-container{
+    width: 70%;
+}
+#xp dd{
+    margin-bottom: 30px;
+}
+
+/* Skills list item styling */
+#xp .skills li{
+    padding: 10px 0;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills ul li{
+    padding-left: 1px;
+}
+
+.skills h3{
+    font-size: 24px;
+}
+
+.bright-txt-container-skills{ 
+    border-radius: 20px;
+    padding: 1em 2em;
+    margin: 1em 1em;
+    width: 30%;
+    background-color: rgba(48, 108, 243, 0.4);
+    border: 5px solid #306CF3;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+}
+
+#contact ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0 40px 0;
+}
+#contact a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+#contact img{
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+
+code{
+    text-shadow: none;
+}
